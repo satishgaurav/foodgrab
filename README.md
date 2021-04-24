@@ -15,7 +15,7 @@ This is a simple app for knowing your fruit. The aim of this app is demonstate a
 
 ## 🍏 Limitations
 - It can only classify one image at a time 
-- Can only do 5 classses of fruit 
+- Can only classify 5 classses of fruit 
 
 ## 🍓 Want to contribute? 
 If you have any suggestions or feedback? Find me at [Twitter]() or Gmail:satishgaurav.iitd@gmail.com
