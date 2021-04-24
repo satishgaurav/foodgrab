@@ -27,4 +27,5 @@ If you have any suggestions or feedback? Find me at [Twitter]() or Gmail:satishg
 3. A a simple deployment app: https://heartbeat.fritz.ai/pytorch-mobile-image-classification-on-android-5c0cfb774c5b
 4. Repo link: https://github.com/johnolafenwa/PytorchMobile
 5. PyTorch Andriod: https://pytorch.org/mobile/android/
+6. https://sites.psu.edu/lifeitmoveson/2017/10/06/oranges-oranges-or-orange-orange/
 
