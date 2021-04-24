@@ -1,5 +1,5 @@
 
-# 🍊FruitGrab: Know you fruit 
+# 🍊GrabFruit: Know you fruit 
 
 ## 🥭 What is it? 
 
