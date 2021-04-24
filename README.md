@@ -6,12 +6,16 @@
 This is a simple app for knowing your fruit. The aim of this app is demonstate a pytorch based deep learing trained with FASTAI to deploy on the mobile. However few things are added to make it useful and more fun. 
 
 ## 🍋 Main Features 
+- Model can classify whether the fruit on the shelf is rotten or not
+- You can see interesting fact about the food  
 
 ## 🍉 Where to get it? 
 
 ## 🍍 App UI preview 
 
-## 🍏 Limitation
+## 🍏 Limitations
+- It can only classify one image at a time 
+- Can only do 5 classses of fruit 
 
 ## 🍓 Want to contribute? 
 If you have any suggestions or feedback? Find me at [Twitter]() or Gmail:satishgaurav.iitd@gmail.com
