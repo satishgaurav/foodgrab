@@ -1,12 +1,23 @@
 
 # 🍊FruitGrab: Know you fruit 
 
-## What is it? 
+## 🥭 What is it? 
 
 This is a simple app for knowing your fruit. The aim of this app is demonstate a pytorch based deep learing trained with FASTAI to deploy on the mobile. However few things are added to make it useful and more fun. 
 
+## 🍋 Main Features 
 
-## Made possible with ♥️
+## 🍉 Where to get it? 
+
+## 🍍 App UI preview 
+
+## 🍏 Limitation
+
+## 🍓 Want to contribute? 
+If you have any suggestions or feedback? Find me at [Twitter]() or Gmail:satishgaurav.iitd@gmail.com
+
+
+## 🍇 Made possible with ♥️
 1. Pytorch convert model: https://pytorch.org/tutorials/advanced/cpp_export.html
 2. A good tutorial: https://drhb.github.io/blog/fastai/2020/03/22/Fastai-Jit.html
 3. A a simple deployment app: https://heartbeat.fritz.ai/pytorch-mobile-image-classification-on-android-5c0cfb774c5b
