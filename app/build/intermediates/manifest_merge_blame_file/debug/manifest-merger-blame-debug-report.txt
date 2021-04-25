@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.pytorch.demo.grabfruit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:5:5-80
+11-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:6:5-65
+12-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:6:22-62
+13
+14    <application
+14-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:8:5-25:19
+15        android:allowBackup="true"
+15-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.2] /Users/satishgaurav/.gradle/caches/transforms-2/files-2.1/82353ad9dd753c93bc0889bea34c08f5/core-1.3.2/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:13:9-35
+23        android:theme="@style/AppTheme" >
+23-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:14:9-40
+24        <activity
+24-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:15:9-24:20
+25            android:name="org.pytorch.demo.grabfruit.MainActivity"
+25-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:16:13-67
+26            android:configChanges="orientation"
+26-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:17:13-48
+27            android:screenOrientation="portrait" >
+27-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:18:13-49
+28            <intent-filter>
+28-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:20:17-69
+29-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:22:17-77
+31-->/Users/satishgaurav/Desktop/GrabFruit/app/src/main/AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.camera:camera-camera2:1.0.0-alpha05] /Users/satishgaurav/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:25:9-30:43
+36            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+36-->[androidx.camera:camera-camera2:1.0.0-alpha05] /Users/satishgaurav/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:26:13-75
+37            android:authorities="org.pytorch.demo.grabfruit.camerax-init"
+37-->[androidx.camera:camera-camera2:1.0.0-alpha05] /Users/satishgaurav/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:27:13-64
+38            android:exported="false"
+38-->[androidx.camera:camera-camera2:1.0.0-alpha05] /Users/satishgaurav/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:28:13-37
+39            android:initOrder="100"
+39-->[androidx.camera:camera-camera2:1.0.0-alpha05] /Users/satishgaurav/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:29:13-36
+40            android:multiprocess="true" />
+40-->[androidx.camera:camera-camera2:1.0.0-alpha05] /Users/satishgaurav/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:30:13-40
+41    </application>
+42
+43</manifest>
